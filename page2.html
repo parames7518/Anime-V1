@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Page</title>
+
+  <!-- ใช้ CSS เดิม -->
+  <link rel="stylesheet" href="yoc.css">
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #0f0f0f;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .page-box {
+      background: #151515;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .page-box h1 {
+      margin-bottom: 10px;
+    }
+
+    .page-box p {
+      opacity: 0.85;
+      line-height: 1.6;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      background: #ff9966;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .back-btn:hover {
+      background: #ff8866;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page-box">
+    <h1>My Custom Page</h1>
+    <p>
+      นี่คือหน้า <strong>page2.html</strong><br>
+      คุณเข้ามาจากการ์ดหน้าแรกได้สำเร็จแล้ว
+    </p>
+
+    <p>
+      หน้านี้ถูกสร้างขึ้นเพื่อแก้ปัญหา <strong>404 NOT_FOUND</strong><br>
+      และสามารถนำไปพัฒนาต่อเป็นหน้าอื่น ๆ ได้
+    </p>
+
+    <a href="inde.html" class="back-btn">← กลับหน้าแรก</a>
+  </div>
+
+</body>
+</html>
